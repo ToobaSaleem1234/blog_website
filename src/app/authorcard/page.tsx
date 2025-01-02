@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Authorcard = () => {
   return (
-    <div className='bg-white shadow-lg rounded-lg py-6 mt-12'>
+    <div className='bg-white shadow-lg rounded-lg px-4 py-6 mt-12'>
       <div className='flex items-center animation-fadeIn'>
         <Image className='w-52 h-52 rounded-full mr-4 object-cover border-2 border-blue-800'
           alt='author'
@@ -23,7 +23,7 @@ const Authorcard = () => {
       <p className='mt-4 text-black leading-relaxed text-justify'>
         I believe in blending different creativity with functionality to deliever meaningful results.Every project I made with so much effort and hardworking.These all projects are the the part of my learning journey.Every project i work on is a chance to push boundaries and explore innovative solutions.
       </p>
-      <div className='mt-4 flex'>
+      <div className='mt-4 flex gap-4'>
         <a href="https://www.facebook.com/tooba.saleem.739?mibextid=ZbWKwL" target='_blank' className='px-6 py-3 text-white  bg-blue-700 rounded-md hover:bg-blue-500 transition duration-300'>
           Facebook
         </a>
