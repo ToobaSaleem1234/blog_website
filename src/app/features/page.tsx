@@ -17,7 +17,7 @@ const Features = () => {
           <p className='text-center m-4 mt-4 text-md text-black leading-loose sm:text-base md:text-mb-12 lg:mb-16 animate-fade-in-up delay-100'>
           Explore Our Categories, is your gateway to discovering a wealth of knowledge on web development. Browse through our carefully curated categories, including programming languages, web design, development frameworks, and more. Whether you are a beginner looking to learn the basics or an experienced developer seeking to expand your skillset, our categories section has something for everyone. Dive in and start exploring today!
           </p>
-          <div className='grid grid-cols-3 gap-6 sm:grid-col-2 lg:grid-col-4 animate-fade-in-up delay-100'>
+          <div className='grid grid-cols-2 gap-6 sm:grid-col-2 lg:grid-col-4 animate-fade-in-up delay-100'>
             {[
               "Web Development",
               "Artificial Inteligence",
