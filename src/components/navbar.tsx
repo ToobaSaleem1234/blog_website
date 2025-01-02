@@ -5,10 +5,10 @@ import Link from "next/link"
 const Navbar = () => (
 
   <header className="text-gray-600 body-font shadow-lg">
-    <div className="container flex flex-wrap p-2 flex-col md:flex-row items-left">
-      <span className="flex-1 text-2xl text-black font-semibold">Toobas_Dynamic_Blog</span>
-      <nav className="md:ml-auto flex flex-wrap  items-center justify-center text-gray-900 hover:underline cursor-pointer ">
-        <Link href={"/"} className="hover:text-blue-700 mr-10 transition-colors duration-300 transform hover:scale-105">Home</Link>
+    <div className="container flex flex-wrap p-2 flex-col md:flex-row items-left sm:items-center">
+      <span className="flex-1 text-2xl text-black font-semibold sm:text-center">Toobas_Dynamic_Blog</span>
+      <nav className="md:ml-auto flex flex-wrap  items-center justify-center text-gray-900 hover:underline cursor-pointer  ">
+        <Link href={"/"} className="hover:text-blue-700 mr-10 transition-colors duration-300 transform hover:scale-105 ">Home</Link>
         <Link href={"/authorcard"} target="_blank" className="hover:text-blue-700 mr-10 transition-colors duration-300 transform hover:scale-105">About</Link>
         <Link href={"/mega"} target="_blank" className="hover:text-blue-700 mr-10 transition-colors duration-300 transform hover:scale-105">Blog</Link>
         <Link href={"/features"} target="_blank" className="hover:text-blue-700 mr-10 transition-colors duration-300 transform hover:scale-105">Our Services</Link>

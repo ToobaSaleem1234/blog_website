@@ -92,7 +92,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="bg-gray-100">
-          <p className="mx-auto py-4 px-5 flex items-center justify-center text-gray-500 text-md sm:text-left ">
+          <p className="py-4 px-5 flex items-center justify-center text-gray-500 text-md sm:text-left ">
             © 2025... Toobas_Dynamic_Blog..
           </p>
         </div>
